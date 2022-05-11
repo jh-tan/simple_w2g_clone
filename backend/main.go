@@ -13,10 +13,6 @@ import (
 var allLetters = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
 var allRoom = make(map[string]*websocket.Pool)
 
-type Code struct {
-	RandomCode string `json:"Code"`
-}
-
 func init() {
 	rand.Seed(time.Now().UnixNano())
 }
