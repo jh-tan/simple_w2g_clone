@@ -4,7 +4,6 @@
 - [x] Websocket
 - [x] Real Time Chat
 - [x] Synchronization of video
-- [x] Multithreaded
 </br>
 .
 </br>
